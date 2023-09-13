@@ -1,5 +1,5 @@
 #### Project Title:
-	## EMS (Email Management System)
+	**EMS (Email Management System)**
 ----------------------------------------------
 
 #### Project Description:
@@ -15,7 +15,7 @@
 	7. Laravel
 
 #### Developer Name:
-		### Muhammad Shahzaib Ijaz.
+		**Muhammad Shahzaib Ijaz**.
 
 #### Course Name:
-		### Software Engineering LAB
+		**Software Engineering LAB**
