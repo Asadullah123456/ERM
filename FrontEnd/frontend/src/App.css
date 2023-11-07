@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --Manrope-family: "Manrope", sans-serif;
+  --primary-pink: #ff1749;
+  --text-dark: #343434;
+  --primary-blue: #0074cc;
+  --primary-blue-hover: #4d94ff;
+  --primary-white: #ffffff;
+  --light-dark: #222;
+  --light-white: #f8f8f8;
+  --light-gray: #999;
+  --border-color: rgba(229, 231, 235, 1);
+  --sideMin-hover-color: #1118271a;
+  --sideMin-text-color: rgba(75, 85, 99, 1);
+  --sideMin-textHover-color: rgba(17,24,39,1);
+  --message-text-color: rgba(110, 120, 145, 1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+  font-size: 13px;
+  line-height: 1.8;
+  color: var(--light-dark);
+  background: var(--light-white);
+  font-weight: 400;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+*:not(i),
+*:not(i)::after,
+*:not(i)::before{
+  font-family: var(--Manrope-family);
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a{
+  text-decoration: none;
 }
