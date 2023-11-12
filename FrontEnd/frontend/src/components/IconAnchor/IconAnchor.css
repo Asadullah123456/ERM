@@ -1,0 +1,36 @@
+.IconAnchor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.IconAnchor i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.IconAnchor,
+.IconAnchor i{
+    font-size: 17px;
+    color: var(--sideMin-text-color);
+    transition: all 0.3s ease;
+}
+
+.IconAnchor:hover,
+.IconAnchor.active{
+    color: var(--sideMin-textHover-color);
+    background-color: var(--sideMin-hover-color);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.IconAnchor:hover i,
+.IconAnchor.active{
+    color: var(--sideMin-textHover-color);
+    transition: all 0.3s ease;
+}
