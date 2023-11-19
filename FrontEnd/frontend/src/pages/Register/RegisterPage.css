@@ -1,0 +1,128 @@
+.custom-container {
+  width: 900px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  box-shadow: 0 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
+.forgot-link{
+  font-size: 12px;
+  font-weight: 500;
+  --text-dark: #343434;
+  color: var(--text-dark);
+  text-align: end;
+}
+
+.register-content {
+  display: flex;
+}
+
+.register-content {
+  padding-top: 40px;
+  padding-bottom: 65px;
+}
+
+
+
+.register {
+  margin: 50px 0px;
+}
+
+.register figure {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.register figure img{
+  width: 85%;
+}
+
+.register img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media screen and (max-width:768px) {
+    .register-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .register img {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+  .custom-container {
+    width: calc(100% - 30px);
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .custom-container {
+    max-width: 1200px;
+  }
+}
+
+
+.avatar-upload {
+  position: relative;
+  max-width: 205px;
+  margin: 10px auto;
+}
+.avatar-upload .avatar-edit {
+  position: absolute;
+  right: 12px;
+  z-index: 1;
+  top: 10px;
+}
+.avatar-upload .avatar-edit input {
+  display: none;
+}
+.avatar-upload .avatar-edit input + label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+.avatar-upload .avatar-edit input + label:hover {
+  background: #f1f1f1;
+  border-color: #d6d6d6;
+}
+.avatar-upload .avatar-edit input + label i {
+  color: var(--text-dark);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-68%);
+  text-align: center;
+  margin: auto;
+}
+.avatar-upload .avatar-preview {
+  width: 192px;
+  height: 192px;
+  position: relative;
+  border-radius: 100%;
+  border: 6px solid #F8F8F8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.avatar-upload .avatar-preview > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
