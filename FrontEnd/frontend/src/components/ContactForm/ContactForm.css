@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600;700&display=swap');
+:root{
+    --afcad-family: 'Afacad', sans-serif;
+}
+
+.saveBtn,
+.backBtn{
+    display: inline-block;
+    border-bottom: none;
+    padding: 10px 36px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.saveBtn{
+    border: none !important;
+    background: #3874ff;
+    color: #FFF;
+}
+
+.backBtn{
+    background-color: #f5f7fa;
+    color: #31374a;
+    border: 1px solid #e3e6ed;
+}
+
+.saveBtn:hover{
+    background: var(--primary-blue-hover);
+}

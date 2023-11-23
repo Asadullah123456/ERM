@@ -1,0 +1,77 @@
+.SideMinBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 90px;
+    background-color: var(--primary-white);
+}
+
+
+
+
+.w-200{
+  width: 200px;
+}
+
+.SideMinBar .sideBar{
+    height: calc(100vh - 80px);
+    border-right: 1px solid var(--border-color);
+}
+
+.sideUl{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+
+.upper-sideUl{
+    overflow-y: auto;
+    height: calc(100% - 180px);
+    width: 98%;
+}
+
+.upper-sideUl::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+}
+
+.upper-sideUl::-webkit-scrollbar:hover {
+  background: transparent;
+}
+
+.upper-sideUl::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  height: 100px;
+}
+
+.upper-sideUl::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+.upper-sideUl::-webkit-scrollbar-corner {
+  background: #fff; 
+}
+
+
+.sideUl li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    border-bottom: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+}
+
+.logo-div img{
+    width: 38px;
+}
