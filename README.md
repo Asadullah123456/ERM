@@ -1,10 +1,9 @@
 #### Project Title:
-	## EMS (Email Management System)
+**EMS (Email Management System)**
 ----------------------------------------------
 
-#### Project Description:
-			This application helps users to store and manage their contacts, including names,
- addresses, phone numbers, and email addresses.
+#### Project Description:  
+This application helps users to store and manage their contacts, including names, addresses, phone numbers, and email addresses.
 
 #### Project Technology:
 	1. HTML5
@@ -14,8 +13,6 @@
 	6. Php
 	7. Laravel
 
-#### Developer Name:
-		### Muhammad Shahzaib Ijaz.
+#### Developer Name:            **Muhammad Shahzaib Ijaz**.
 
-#### Course Name:
-		### Software Engineering LAB
+#### Course Name: 		**Software Engineering LAB**
