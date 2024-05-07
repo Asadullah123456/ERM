@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --Manrope-family: "Manrope", sans-serif;
+  --primary-pink: #ff1749;
+  --text-dark: #343434;
+  --primary-blue: #0074cc;
+  --primary-blue-hover: #4d94ff;
+  --primary-white: #ffffff;
+  --light-dark: #222;
+  --light-white: #f8f8f8;
+  --light-gray: #999;
+}
+
+.formGroup .form-submit {
+  display: inline-block;
+  background: var(--text-dark);
+  color: var(--primary-white);
+  border-bottom: none;
+  padding: 10px 36px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none !important;
+}
+
+.form-submit:hover {
+  background: var(--primary-blue-hover);
+}

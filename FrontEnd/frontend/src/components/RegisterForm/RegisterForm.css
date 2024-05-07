@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --Manrope-family: "Manrope", sans-serif;
+  --primary-pink: #ff1749;
+  --text-dark: #343434;
+  --primary-blue: #0074cc;
+  --primary-blue-hover: #4d94ff;
+  --primary-white: #ffffff;
+  --light-dark: #222;
+  --light-white: #f8f8f8;
+  --light-gray: #999;
+}
+
+
+.registerForm {
+  width: 100%;
+  overflow: hidden;
+}
+
+.registerForm {
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-left: 34px;
+}
+
+.form-title {
+    line-height: 1.66;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    color: var(--light-dark);
+    font-family: var(--Manrope-family);
+    font-size: 26px;
+    margin-bottom: 33px;
+}
+
+.register-form {
+  width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .registerForm {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding: 0 30px;
+        width: auto;
+    }
+    .form-title {
+        text-align: center;
+    }
+}

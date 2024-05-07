@@ -1,0 +1,56 @@
+.chatDisplay:hover{
+    background-color: var(--sideMin-hover-color);
+}
+
+.chatDisplay{
+    padding: 10px 8px 10px 5px;
+    border-radius: 4px;
+}
+
+.userName{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--sideMin-text-color);
+    line-height: 18px;
+}
+
+.messageHint,
+.time{
+    color: var(--message-text-color);
+}
+.messageHint{
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.time{
+    font-size: 12px;
+}
+
+.UnseenMessage {
+    width: 14px;
+    height: 14px;
+    font-size: 10px;
+    vertical-align: middle;
+    text-align: center;
+    color: var(--primary-white);
+    border-radius: 50%;
+    line-height: 14px;
+}
+
+
+.chatUserDetail{
+    margin: 0 10px;
+    flex: 1;
+}
+
+.chatDate{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chatDate .UnseenMessage{
+    margin-top: 10px;
+}

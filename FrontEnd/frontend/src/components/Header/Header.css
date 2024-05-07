@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:wght@400;500;600;700&display=swap');
+:root{
+    --afcad-family: 'Afacad', sans-serif;
+}
+
+.avatar-MainDiv{
+    background-color: var(--primary-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+
+.avatar-MainDiv{
+    margin-left: 90px;
+    padding: 14px 30px;
+}
+
+.avatar-MainDiv h1{
+  font-family: var(--afcad-family);
+  font-size: 32px;
+  font-weight: 900;
+}

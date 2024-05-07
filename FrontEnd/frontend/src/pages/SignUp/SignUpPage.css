@@ -1,0 +1,61 @@
+.custom-container {
+  width: 900px;
+  background: #FFFFFF;
+  margin: 0 auto;
+  box-shadow: 0 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
+.signup-content {
+  display: flex;
+}
+
+.signup-content {
+  padding: 25px 0 75px;
+}
+
+
+.sign-up {
+  margin: 50px 0px;
+}
+
+
+.sign-up figure {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.sign-up figure img{
+  width: 85%;
+}
+
+
+.sign-up img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media screen and (max-width:768px) {
+    .signup-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .sign-up img{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+  .custom-container {
+    width: calc(100% - 30px);
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .custom-container {
+    max-width: 1200px;
+  }
+}

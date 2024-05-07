@@ -1,0 +1,256 @@
+.SideMainBar{
+    position: fixed;
+    margin-left: 90px;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: var(--primary-white);
+    margin-top: 74px;
+}
+
+.b-bottom{
+    border-bottom: 1px solid var(--border-color);
+}
+
+.emailForm{
+    margin-left: 390px;
+    margin-top: 74px;
+}
+
+.sendFrom{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 35px;
+}
+
+
+.messageInputBox{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px 10px 30px 20px;
+    background-color: whitesmoke;
+}
+
+.messageInputBox button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 10px;
+}
+
+.messageInputBox button:hover{
+    color: gray;
+    transition: all 0.3s ease;
+}
+
+.messageInputBox input{
+    width: 60%;
+}
+
+.messageDIv{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.left-message  .datespan{
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+    font-weight: 900;
+    font-size: 12px;
+    font-family: var(--afcad-family);
+}
+
+.right-message .datespan{
+    position: absolute;
+    bottom: -20px;
+    left: 5px;
+    font-weight: 900;
+    font-size: 12px;
+    font-family: var(--afcad-family);
+}
+
+
+.left-message{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 20px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.right-message{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 0.5rem;
+    margin-right: 20px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+
+.senderDetails h3{
+    font-family: var(--afcad-family);
+    font-size: 19px;
+}
+
+.senderDetails{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 12px;
+    position: relative;
+    max-width: 400px;
+    min-width: 70px;
+}
+
+.senderDetails p{
+    font-family: var(--afcad-family);
+    font-size: 15px;
+}
+
+.senderImage img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.senderMessage p{
+    font-family: var(--afcad-family);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+.emailForm input,
+.emailForm button,
+.emailForm textarea{
+    font-family: var(--afcad-family)!important;
+}
+
+
+.HeadingSection,
+.ChatSearch{
+    border-bottom: 1px solid var(--border-color);
+}
+
+.HeadingSection {
+    height: 74px;
+    padding: 10px 5px 15px;
+    display: flex;
+    align-items: flex-end;
+}
+.HeadingSection h3{
+    margin-left: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--sideMin-text-color);
+}
+
+.UserSection{
+    padding: 11px 25px 10px 0px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.ChatSearch{
+    padding: 15px 10px;
+    position: relative;
+}
+
+.ChatSearch input{
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    padding: 6px 10px 6px 26px;
+    font-size: 12px;
+}
+
+.ChatSearch i{
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    color: var(--message-text-color);
+}
+
+.ChatsSection{
+    padding: 5px;
+}
+
+.ChatsSection ul li{
+    list-style: none;
+    padding: 5px 0px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.rightSideMain{
+    border-left: 1px solid var(--border-color);
+    flex: 1;
+    height: calc(100vh - 76px);
+}
+
+.SubMenu{
+    margin-top: 15px;
+}
+
+.SubMenu ul li{
+    list-style: none;
+}
+
+.contactList{
+    padding: 5px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 10px 8px 10px 5px;
+    border-radius: 4px;
+}
+
+.contact h3{
+    font-family: var(--afcad-family);
+    font-size: 16px;
+}
+
+.contact img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.contactList.active .contact{
+    background-color: var(--sideMin-hover-color);
+}
+
+.contact:hover{
+    background-color: var(--sideMin-hover-color);
+    cursor: pointer;
+}
+
+.contactList{
+    border-bottom: 1px solid var(--border-color);
+}
+
+.hv-60{
+    height: 60vh;
+}
+
+.placeholder-image2 img{
+    width: 70%;
+}
+
+.placeholder-image2 span{
+    font-weight: 700;
+    font-family: var(--afcad-family);
+    font-size: 18px;
+}

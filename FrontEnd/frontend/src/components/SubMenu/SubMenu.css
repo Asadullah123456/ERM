@@ -1,0 +1,49 @@
+.subMenu-link{
+    color: var(--sideMin-text-color);
+    padding: 10px 0px 10px 55px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.subMenu-link::after{
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.subMenu-link:hover::after{
+    background-color: var(--primary-blue);
+    transition: all 0.3s ease-in-out;
+}
+
+.subMenu-link span{
+    font-size: 16px;
+    margin-left: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.subMenu-link i{
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.subMenu-link:hover{
+    background-color: var(--sideMin-hover-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.subMenu-link:hover i{
+    color: var(--primary-blue);
+    transition: all 0.3s ease-in-out;
+}
+
+.subMenu-link:hover span{
+    color: var(--primary-blue);
+    transition: all 0.3s ease-in-out;
+} 
